@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-  
-  public static int gcd(int a, int b) {  // Greatest Common Divisor
+  public static int gcd(int a, int b) { // Greatest Common Divisor
     if(b == 0)
       return a;
     
@@ -20,6 +19,5 @@ public class Main {
     a = sc.nextInt();
     b = sc.nextInt();
     System.out.println(lcm(a, b));
-    
   }
 }

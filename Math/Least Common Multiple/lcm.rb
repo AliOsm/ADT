@@ -10,6 +10,5 @@ def lcm a, b
   a / gcd(a, b) * b
 end
 
-a = gets.chomp.to_i
-b = gets.chomp.to_i
+a, b = gets.split.map(&:to_i)
 puts lcm a, b

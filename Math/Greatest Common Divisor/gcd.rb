@@ -6,6 +6,5 @@ def gcd a, b
   end
 end
 
-a = gets.chomp.to_i
-b = gets.chomp.to_i
+a, b = gets.split.map(&:to_i)
 puts gcd a, b
