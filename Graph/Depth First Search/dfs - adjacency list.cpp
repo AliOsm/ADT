@@ -8,16 +8,20 @@ int n, m, t = 0; // Number of nodes, Number of edges, DFS time
 int in[MAX], out[MAX]; // In time for each node, Out time for each node
 bool vis[MAX]; // Visited array
 vector<vector<int> > adj; // Adjacency list
+int parent[MAX]; // Parent of each node in the DFS tree
 
 void dfs(int node) {
-  if(vis[node])
-    return;
-  
   in[node] = ++t;
   
   vis[node] = true;
-  for(int i = 0; i < (int)adj[node].size(); ++i)
-    dfs(adj[node][i]);
+  for(int i = 0; i < (int)adj[node].size(); ++i) {
+    int child = adj[node][i];
+    
+    if(!vis[child]) {
+      parent[child] = node;
+      dfs(child);
+    }
+  }
   
   out[node] = ++t;
 }
@@ -38,6 +42,7 @@ int main() {
   }
 
   int src = 0; // Source node
+  parent[src] = src;
   dfs(src);
   
   return 0;
