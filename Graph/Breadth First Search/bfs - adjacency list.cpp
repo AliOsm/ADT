@@ -7,7 +7,7 @@ using namespace std;
 typedef int T; // Change type if needed
 
 int const MAX = 1000001; // Change maximum number of nodes if needed
-int n, m, step = 1; // Number of nodes, Number of edges, Number of edges
+int n, m, step = 1; // Number of nodes, Number of edges, Cost to go from one node to another
 bool vis[MAX]; // Visited array
 vector<vector<int> > adj; // Adjacency list
 queue<int> q; // Queue of unprocessed nodes
