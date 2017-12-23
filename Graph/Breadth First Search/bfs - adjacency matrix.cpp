@@ -9,7 +9,7 @@ typedef int T; // Change type if needed
 int const MAX = 1001; // Change maximum number of nodes if needed
 int n, step = 1; // Number of nodes, Cost to go from one node to another
 bool vis[MAX]; // Visited array
-bool adj[MAX][MAX]; // Adjacency list
+bool adj[MAX][MAX]; // Adjacency matrix
 queue<int> q; // Queue of unprocessed nodes
 T cost[MAX]; // Cost to reach every node from the source node
 int parent[MAX]; // Parent of each node in the BFS tree

@@ -4,10 +4,11 @@
 
 using namespace std;
 
-typedef int T; // Chanadje type if needed
+typedef int T; // Change type if needed
 
-int const MAX = 1000001, INF = 2000000001; // Chanadje maximum number of nodes if needed, Maximum possible cost
-int n, m; // Number of nodes, Number of edadjes
+int const MAX = 1000001; // Change maximum number of nodes if needed
+T const INF = 2000000001; // Change maximum possible cost
+int n, m; // Number of nodes, Number of edges
 int parent[MAX]; // Parent of each node in the Dijkstra tree
 T cost[MAX], cst; // Cost to reach every node from the source node, Temporary cost variable
 bool vis[MAX]; // Visited array
@@ -56,7 +57,7 @@ int main() {
     
     adj[from].push_back(make_pair(to, cst));
     
-    // if bidirectional edadjes
+    // if bidirectional edges
     adj[to].push_back(make_pair(from, cst));
   }
 
