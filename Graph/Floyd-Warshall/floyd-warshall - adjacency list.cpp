@@ -10,6 +10,13 @@ T const INF = 1000000001; // Change maximum possible cost
 int n, m; // Number of nodes, Number of edges
 T cost[MAX][MAX], cst; // Cost to reach every node from every node, Temporary cost variable
 
+void floyd_warshall() {
+  for (int k = 0; k < n; ++k)
+    for (int i = 0; i < n; ++i)
+      for (int j = 0; j < n; ++j)
+        cost[i][j] = min(cost[i][j], cost[i][k] + cost[k][j]);
+}
+
 int main() {
   cin >> n >> m;
 
@@ -30,10 +37,7 @@ int main() {
     cost[to][from] = min(cost[to][from], cst);
   }
 
-  for (int k = 0; k < n; ++k)
-    for (int i = 0; i < n; ++i)
-      for (int j = 0; j < n; ++j)
-        cost[i][j] = min(cost[i][j], cost[i][k] + cost[k][j]);
+  floyd_warshall();
   
   return 0;
 }

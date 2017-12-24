@@ -6,7 +6,7 @@ using namespace std;
 int const MAX = 100000001; // Change maximum number of numbers if needed
 bitset<MAX> prime; // Status for each number
 
-int main() {
+void sieve_of_eratosthenes() {
 	prime.set(); // Assume every number is prime
 
 	prime[0] = prime[1] = 0; // 0 and 1 are not primes
@@ -18,6 +18,10 @@ int main() {
 		if(prime[i])
 			for(int j = i * i; j < MAX; j += (i << 1))
 				prime[j] = 0;
+}
+
+int main() {
+	sieve_of_eratosthenes();
 
 	return 0;
 }

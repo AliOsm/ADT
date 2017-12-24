@@ -5,6 +5,23 @@ Standard implementation of algorithms
 
 This repository was created to gather the standard implementation for the most known algorithms in different programming languages.
 
+## Implemented Algorithms
+
+```
+Algorithms  
+├── [Graph](https://github.com/AliOsm/Algorithms/tree/master/Graph)  
+|   ├── [Breadth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Breadth%20First%20Search)  
+|   ├── [Depth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Depth%20First%20Search)  
+|   ├── [Dijkstra](https://github.com/AliOsm/Algorithms/tree/master/Graph/Dijkstra)  
+|   └── [Floyd-Warshall](https://github.com/AliOsm/Algorithms/tree/master/Graph/Floyd-Warshall)  
+├── [Math](https://github.com/AliOsm/Algorithms/tree/master/Math)  
+|   ├── [Greatest Common Divisor](https://github.com/AliOsm/Algorithms/tree/master/Math/Greatest%20Common%20Divisor)  
+|   └── [Least Common Multiple](https://github.com/AliOsm/Algorithms/tree/master/Math/Least%20Common%20Multiple)  
+└── [Number Theory](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory)  
+    └── [Prime Numbers](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory/Prime%20Numbers)  
+        └── [Sieve of Eratosthenes](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory/Prime%20Numbers/Sieve%20of%20Eratosthenes)  
+```
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key][emojis]):
