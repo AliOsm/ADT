@@ -13,9 +13,9 @@ This repository was created to gather the standard implementation for the most k
     * [Dijkstra](https://github.com/AliOsm/Algorithms/tree/master/Graph/Dijkstra)
     * [Floyd-Warshall](https://github.com/AliOsm/Algorithms/tree/master/Graph/Floyd-Warshall)
 * Math
+* Number Theory
     * [Greatest Common Divisor](https://github.com/AliOsm/Algorithms/tree/master/Math/Greatest%20Common%20Divisor)
     * [Least Common Multiple](https://github.com/AliOsm/Algorithms/tree/master/Math/Least%20Common%20Multiple)
-* Number Theory
     * Prime Numbers
         * [Sieve of Eratosthenes](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory/Prime%20Numbers/Sieve%20of%20Eratosthenes)
 
