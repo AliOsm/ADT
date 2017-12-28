@@ -8,16 +8,17 @@ This repository was created to gather the standard implementation for the most k
 ## Implemented Algorithms
 
 * Graph
-    * [Breadth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Breadth%20First%20Search)
-    * [Depth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Depth%20First%20Search)
-    * [Dijkstra](https://github.com/AliOsm/Algorithms/tree/master/Graph/Dijkstra)
-    * [Floyd-Warshall](https://github.com/AliOsm/Algorithms/tree/master/Graph/Floyd-Warshall)
+  * [Breadth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Breadth%20First%20Search)
+  * [Depth First Search](https://github.com/AliOsm/Algorithms/tree/master/Graph/Depth%20First%20Search)
+  * [Dijkstra](https://github.com/AliOsm/Algorithms/tree/master/Graph/Dijkstra)
+  * [Floyd-Warshall](https://github.com/AliOsm/Algorithms/tree/master/Graph/Floyd-Warshall)
 * Math
-* Number Theory
+	* [Fast Power](https://github.com/AliOsm/Algorithms/tree/master/Math/Fast%20Power)
+	* Number Theory
     * [Greatest Common Divisor](https://github.com/AliOsm/Algorithms/tree/master/Math/Greatest%20Common%20Divisor)
     * [Least Common Multiple](https://github.com/AliOsm/Algorithms/tree/master/Math/Least%20Common%20Multiple)
     * Prime Numbers
-        * [Sieve of Eratosthenes](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory/Prime%20Numbers/Sieve%20of%20Eratosthenes)
+      * [Sieve of Eratosthenes](https://github.com/AliOsm/Algorithms/tree/master/Number%20Theory/Prime%20Numbers/Sieve%20of%20Eratosthenes)
 
 ## Contributors
 
