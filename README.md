@@ -17,6 +17,7 @@ Algorithms
 │   └── Kruskal
 └── Math
     ├── Fast Power
+    ├── n Choose k
     └── Number Theory
         ├── Greatest Common Divisor
         ├── Least Common Multiple

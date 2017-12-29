@@ -4,7 +4,7 @@ using namespace std;
 
 typedef int T; // Change type if needed
 
-T fast_power(const T &base, T power) {
+T fast_power(const T &base, const T &power) {
 	if(power == 0)
 		return 1;
 
