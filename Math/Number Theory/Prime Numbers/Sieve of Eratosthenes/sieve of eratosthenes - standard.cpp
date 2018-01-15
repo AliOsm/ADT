@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int const MAX = 100000001; // Change maximum number of numbers if needed
+int const MAX = 1000001; // Change maximum number of numbers if needed
 bool prime[MAX]; // Status for each number
 
 void sieve_of_eratosthenes() {
