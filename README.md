@@ -1,29 +1,79 @@
-# Algorithms
+# ADT
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-Standard implementation of algorithms
+Standard implementation of **A**lgorithms, **D**ata structures and **T**echniques.
 
 This repository was created to gather the standard implementation for the most known algorithms in different programming languages.
 
-## Implemented Algorithms
+## Implemented Stuffs
 
 ```
-Algorithms
-├── Graph
-│   ├── Breadth First Search
-│   ├── Depth First Search
-│   ├── Dijkstra
-│   ├── Floyd-Warshall
-│   └── Kruskal
-└── Math
-    ├── Fast Power
-    ├── n Choose k
-    └── Number Theory
-        ├── Greatest Common Divisor
-        ├── Least Common Multiple
-        └── Prime Numbers
-            └── Sieve of Eratosthenes
+ADT
+└── Algorithms
+    ├── Graph
+    │   ├── Breadth First Search
+    │   ├── Depth First Search
+    │   ├── Dijkstra
+    │   ├── Floyd-Warshall
+    │   └── Kruskal
+    └── Math
+        ├── Fast Power
+        ├── n Choose k
+        └── Number Theory
+            ├── Greatest Common Divisor
+            ├── Least Common Multiple
+            └── Prime Numbers
+                └── Sieve of Eratosthenes
  ```
+
+## Implemented Soon
+```
+ADT
+├── Algorithms
+│   ├── Graph
+│   │   ├── Bellman-Ford
+│   │   ├── Johnson
+│   │   ├── Topological Sort
+│   │   ├── Prim
+│   │   ├── Tarjan
+│   │   ├── Bridges
+│   │   ├── Articular Points
+│   │   └── Least Common Ancestor
+│   ├── Math
+│   │   └── Number Theory
+│   │       ├── Miller Primarity Test
+│   │       └── Extended GCD
+│   ├── String
+│   │   ├── KMP
+│   │   └── Z
+│   └── Sort
+│       ├── Bubble Sort
+│       ├── Selection Sort
+│       ├── Insertion Sort
+│       ├── Merge Sort
+│       ├── Quick Sort
+│       ├── Heap Sort
+│       └── Counting Sort
+├── Data Structures
+│   ├── Linked List
+│   ├── Doubly Linked List
+│   ├── Binary Tree
+│   ├── Binary Search Tree
+│   ├── Trie
+│   ├── Disjoint Set Union
+│   ├── Sparse Table
+│   ├── Segment Tree
+│   └── Binary Indexed Tree
+└── Techniques
+    └── Dynamic Programming
+        ├── Longest Increasing Subsequence
+        ├── Longest Decreasing Subsequence
+        ├── Longest Common Subsequence
+        ├── Longest Common Substring
+        ├── Coin Exchange Problem
+        ├── Edit Distance Problem
+        └── Travelling Salesman Problem
+```
 
 ## Contributors
 
