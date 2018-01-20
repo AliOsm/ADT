@@ -31,47 +31,47 @@ ADT
 ADT
 ├── Algorithms
 │   ├── Graph
-│   │   ├── Bellman-Ford
-│   │   ├── Johnson
-│   │   ├── Topological Sort
-│   │   ├── Prim
-│   │   ├── Tarjan
-│   │   ├── Bridges
 │   │   ├── Articular Points
-│   │   └── Least Common Ancestor
+│   │   ├── Bellman-Ford
+│   │   ├── Bridges
+│   │   ├── Johnson
+│   │   ├── Least Common Ancestor
+│   │   ├── Prim
+│   │   ├── Topological Sort
+│   │   └── Tarjan
 │   ├── Math
 │   │   └── Number Theory
-│   │       ├── Miller Primarity Test
-│   │       └── Extended GCD
+│   │       ├── Extended GCD
+│   │       └── Miller Primarity Test
 │   ├── String
 │   │   ├── KMP
 │   │   └── Z
 │   └── Sort
 │       ├── Bubble Sort
-│       ├── Selection Sort
+│       ├── Counting Sort
+│       ├── Heap Sort
 │       ├── Insertion Sort
 │       ├── Merge Sort
 │       ├── Quick Sort
-│       ├── Heap Sort
-│       └── Counting Sort
+│       └── Selection Sort
 ├── Data Structures
-│   ├── Linked List
-│   ├── Doubly Linked List
-│   ├── Binary Tree
+│   ├── Binary Indexed Tree
 │   ├── Binary Search Tree
-│   ├── Trie
+│   ├── Binary Tree
 │   ├── Disjoint Set Union
-│   ├── Sparse Table
+│   ├── Doubly Linked List
+│   ├── Linked List
 │   ├── Segment Tree
-│   └── Binary Indexed Tree
+│   ├── Sparse Table
+│   └── Trie
 └── Techniques
     └── Dynamic Programming
-        ├── Longest Increasing Subsequence
-        ├── Longest Decreasing Subsequence
-        ├── Longest Common Subsequence
-        ├── Longest Common Substring
         ├── Coin Exchange Problem
         ├── Edit Distance Problem
+        ├── Longest Common Subsequence
+        ├── Longest Common Substring
+        ├── Longest Decreasing Subsequence
+        ├── Longest Increasing Subsequence
         └── Travelling Salesman Problem
 ```
 
