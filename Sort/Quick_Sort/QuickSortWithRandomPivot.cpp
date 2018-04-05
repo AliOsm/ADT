@@ -30,7 +30,6 @@ void QuickSort(int a[],int l,int r){
 	QuickSort(a,mid+1,r);
 }
 int main(){
-	freopen("in.txt","r",stdin);
 	int arr[N],n;
 	scanf("%d",&n);
 	for(int i=0;i<n;++i)
