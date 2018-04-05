@@ -4,7 +4,7 @@ using namespace std;
 const int N=100010;
 int arr[N],n;
 void SelectionSort(int a[]){
-	int Min_idx;
+	int Min_idx;//index for Minimum element from index subArray after i
 	for(int i=0;i<n-1;++i){
 		Min_idx=i;
 		for(int j=i+1;j<n;++j){
