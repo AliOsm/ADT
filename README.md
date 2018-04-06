@@ -15,15 +15,24 @@ ADT
     │   ├── Depth First Search
     │   ├── Dijkstra
     │   ├── Floyd-Warshall
-    │   └── Kruskal
-    └── Math
-        ├── Fast Power
-        ├── n Choose k
-        └── Number Theory
-            ├── Greatest Common Divisor
-            ├── Least Common Multiple
-            └── Prime Numbers
-                └── Sieve of Eratosthenes
+    │   ├── Kruskal
+    │   └── Prim
+    ├── Math
+    │   ├── Fast Power
+    │   ├── n Choose k
+    │   └── Number Theory
+    │       ├── Greatest Common Divisor
+    │       ├── Least Common Multiple
+    │       └── Prime Numbers
+    │           └── Sieve of Eratosthenes   
+    └── Sort
+        ├── Bubble Sort
+        ├── Counting Sort
+        ├── Heap Sort
+        ├── Insertion Sort
+        ├── Merge Sort
+        ├── Quick Sort
+        └── Selection Sort
  ```
 
 ## Implemented Soon
@@ -36,24 +45,16 @@ ADT
 │   │   ├── Bridges
 │   │   ├── Johnson
 │   │   ├── Least Common Ancestor
-│   │   ├── Prim
 │   │   ├── Topological Sort
 │   │   └── Tarjan
 │   ├── Math
 │   │   └── Number Theory
 │   │       ├── Extended GCD
 │   │       └── Miller Primarity Test
-│   ├── String
-│   │   ├── KMP
-│   │   └── Z
-│   └── Sort
-│       ├── Bubble Sort
-│       ├── Counting Sort
-│       ├── Heap Sort
-│       ├── Insertion Sort
-│       ├── Merge Sort
-│       ├── Quick Sort
-│       └── Selection Sort
+│   └── String
+│       ├── KMP
+│       └── Z
+│   
 ├── Data Structures
 │   ├── Binary Indexed Tree
 │   ├── Binary Search Tree
