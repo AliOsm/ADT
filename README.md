@@ -34,8 +34,15 @@ ADT
 │       ├── Quick Sort
 │       └── Selection Sort
 │
-└── Data Structures 
-    └── Trie
+├── Data Structures 
+│   └── Trie
+│
+│
+│
+└── Techniques
+    └── Dynamic Programming
+	├── Longest Common Subsequence
+	└── Longest Increasing Subsequence
 
 
  ```
@@ -73,10 +80,8 @@ ADT
     └── Dynamic Programming
         ├── Coin Exchange Problem
         ├── Edit Distance Problem
-        ├── Longest Common Subsequence
         ├── Longest Common Substring
         ├── Longest Decreasing Subsequence
-        ├── Longest Increasing Subsequence
         └── Travelling Salesman Problem
 ```
 
