@@ -9,30 +9,35 @@ This repository was created to gather the standard implementation for the most k
 
 ```
 ADT
-└── Algorithms
-    ├── Graph
-    │   ├── Breadth First Search
-    │   ├── Depth First Search
-    │   ├── Dijkstra
-    │   ├── Floyd-Warshall
-    │   ├── Kruskal
-    │   └── Prim
-    ├── Math
-    │   ├── Fast Power
-    │   ├── n Choose k
-    │   └── Number Theory
-    │       ├── Greatest Common Divisor
-    │       ├── Least Common Multiple
-    │       └── Prime Numbers
-    │           └── Sieve of Eratosthenes   
-    └── Sort
-        ├── Bubble Sort
-        ├── Counting Sort
-        ├── Heap Sort
-        ├── Insertion Sort
-        ├── Merge Sort
-        ├── Quick Sort
-        └── Selection Sort
+├── Algorithms
+│   ├── Graph
+│   │   ├── Breadth First Search
+│   │   ├── Depth First Search
+│   │   ├── Dijkstra
+│   │   ├── Floyd-Warshall
+│   │   ├── Kruskal
+│   │   └── Prim
+│   ├── Math
+│   │   ├── Fast Power
+│   │   ├── n Choose k
+│   │   └── Number Theory
+│   │       ├── Greatest Common Divisor
+│   │       ├── Least Common Multiple
+│   │       └── Prime Numbers
+│   │           └── Sieve of Eratosthenes   
+│   └── Sort
+│       ├── Bubble Sort
+│       ├── Counting Sort
+│       ├── Heap Sort
+│       ├── Insertion Sort
+│       ├── Merge Sort
+│       ├── Quick Sort
+│       └── Selection Sort
+│
+└── Data Structures 
+    └── Trie
+
+
  ```
 
 ## Implemented Soon
@@ -63,8 +68,7 @@ ADT
 │   ├── Doubly Linked List
 │   ├── Linked List
 │   ├── Segment Tree
-│   ├── Sparse Table
-│   └── Trie
+│   └── Sparse Table
 └── Techniques
     └── Dynamic Programming
         ├── Coin Exchange Problem
