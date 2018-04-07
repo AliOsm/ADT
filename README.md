@@ -9,21 +9,42 @@ This repository was created to gather the standard implementation for the most k
 
 ```
 ADT
-└── Algorithms
-    ├── Graph
-    │   ├── Breadth First Search
-    │   ├── Depth First Search
-    │   ├── Dijkstra
-    │   ├── Floyd-Warshall
-    │   └── Kruskal
-    └── Math
-        ├── Fast Power
-        ├── n Choose k
-        └── Number Theory
-            ├── Greatest Common Divisor
-            ├── Least Common Multiple
-            └── Prime Numbers
-                └── Sieve of Eratosthenes
+├── Algorithms
+│   ├── Graph
+│   │   ├── Breadth First Search
+│   │   ├── Depth First Search
+│   │   ├── Dijkstra
+│   │   ├── Floyd-Warshall
+│   │   ├── Kruskal
+│   │   └── Prim
+│   ├── Math
+│   │   ├── Fast Power
+│   │   ├── n Choose k
+│   │   └── Number Theory
+│   │       ├── Greatest Common Divisor
+│   │       ├── Least Common Multiple
+│   │       └── Prime Numbers
+│   │           └── Sieve of Eratosthenes   
+│   └── Sort
+│       ├── Bubble Sort
+│       ├── Counting Sort
+│       ├── Heap Sort
+│       ├── Insertion Sort
+│       ├── Merge Sort
+│       ├── Quick Sort
+│       └── Selection Sort
+│
+├── Data Structures 
+│   └── Trie
+│
+│
+│
+└── Techniques
+    └── Dynamic Programming
+	├── Longest Common Subsequence
+	└── Longest Increasing Subsequence
+
+
  ```
 
 ## Implemented Soon
@@ -36,24 +57,16 @@ ADT
 │   │   ├── Bridges
 │   │   ├── Johnson
 │   │   ├── Least Common Ancestor
-│   │   ├── Prim
 │   │   ├── Topological Sort
 │   │   └── Tarjan
 │   ├── Math
 │   │   └── Number Theory
 │   │       ├── Extended GCD
 │   │       └── Miller Primarity Test
-│   ├── String
-│   │   ├── KMP
-│   │   └── Z
-│   └── Sort
-│       ├── Bubble Sort
-│       ├── Counting Sort
-│       ├── Heap Sort
-│       ├── Insertion Sort
-│       ├── Merge Sort
-│       ├── Quick Sort
-│       └── Selection Sort
+│   └── String
+│       ├── KMP
+│       └── Z
+│   
 ├── Data Structures
 │   ├── Binary Indexed Tree
 │   ├── Binary Search Tree
@@ -62,16 +75,13 @@ ADT
 │   ├── Doubly Linked List
 │   ├── Linked List
 │   ├── Segment Tree
-│   ├── Sparse Table
-│   └── Trie
+│   └── Sparse Table
 └── Techniques
     └── Dynamic Programming
         ├── Coin Exchange Problem
         ├── Edit Distance Problem
-        ├── Longest Common Subsequence
         ├── Longest Common Substring
         ├── Longest Decreasing Subsequence
-        ├── Longest Increasing Subsequence
         └── Travelling Salesman Problem
 ```
 
