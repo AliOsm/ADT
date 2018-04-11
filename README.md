@@ -27,7 +27,7 @@ ADT
 │
 └── Techniques
     └── Dynamic Programming
-        ├── Longest Increasing Subsequence
+        └── Longest Increasing Subsequence
  ```
 
 ## Implemented Soon
