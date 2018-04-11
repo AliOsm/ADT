@@ -10,20 +10,22 @@ This repository was created to gather the standard implementation for the most k
 ```
 ADT
 ├── Algorithms
-│   ├── Graph│
+│   ├── Graph
 │   │   ├── Breadth First Search
 │   │   ├── Depth First Search
 │   │   ├── Dijkstra
 │   │   ├── Floyd-Warshall
 │   │   └── Kruskal
-│   └── Math
-│       ├── Fast Power
-│       ├── n Choose k
-│       └── Number Theory
-│           ├── Greatest Common Divisor
-│           ├── Least Common Multiple 
-│           └── Prime Numbers
-│               └── Sieve of Eratosthenes
+│   ├── Math
+│   │   ├── Fast Power
+│   │   ├── n Choose k
+│   │   └── Number Theory
+│   │       ├── Greatest Common Divisor
+│   │       ├── Least Common Multiple 
+│   │       └── Prime Numbers
+│   │           └── Sieve of Eratosthenes
+│   └── Sort
+│       └── Bubble Sort
 │
 └── Techniques
     └── Dynamic Programming
@@ -51,7 +53,6 @@ ADT
 │   │   ├── KMP
 │   │   └── Z
 │   └── Sort
-│       ├── Bubble Sort
 │       ├── Counting Sort
 │       ├── Heap Sort
 │       ├── Insertion Sort
