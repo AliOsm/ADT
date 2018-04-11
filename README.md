@@ -9,21 +9,25 @@ This repository was created to gather the standard implementation for the most k
 
 ```
 ADT
-└── Algorithms
-    ├── Graph
-    │   ├── Breadth First Search
-    │   ├── Depth First Search
-    │   ├── Dijkstra
-    │   ├── Floyd-Warshall
-    │   └── Kruskal
-    └── Math
-        ├── Fast Power
-        ├── n Choose k
-        └── Number Theory
-            ├── Greatest Common Divisor
-            ├── Least Common Multiple
-            └── Prime Numbers
-                └── Sieve of Eratosthenes
+├── Algorithms
+│   ├── Graph│
+│   │   ├── Breadth First Search
+│   │   ├── Depth First Search
+│   │   ├── Dijkstra
+│   │   ├── Floyd-Warshall
+│   │   └── Kruskal
+│   └── Math
+│       ├── Fast Power
+│       ├── n Choose k
+│       └── Number Theory
+│           ├── Greatest Common Divisor
+│           ├── Least Common Multiple 
+│           └── Prime Numbers
+│               └── Sieve of Eratosthenes
+│
+└── Techniques
+    └── Dynamic Programming
+        ├── Longest Increasing Subsequence
  ```
 
 ## Implemented Soon
@@ -71,7 +75,6 @@ ADT
         ├── Longest Common Subsequence
         ├── Longest Common Substring
         ├── Longest Decreasing Subsequence
-        ├── Longest Increasing Subsequence
         └── Travelling Salesman Problem
 ```
 
