@@ -25,7 +25,14 @@ ADT
 │   │       └── Prime Numbers
 │   │           └── Sieve of Eratosthenes
 │   └── Sort
-│       └── Bubble Sort
+│       ├── Insertion Sort
+│       ├── Merge Sort
+│       ├── Heap Sort
+│       ├── Bubble Sort
+│       ├── Counting Sort
+│       ├── Quick Sort
+│       └── Selection Sort
+│
 │
 └── Techniques
     └── Dynamic Programming
@@ -49,16 +56,9 @@ ADT
 │   │   └── Number Theory
 │   │       ├── Extended GCD
 │   │       └── Miller Primarity Test
-│   ├── String
-│   │   ├── KMP
-│   │   └── Z
-│   └── Sort
-│       ├── Counting Sort
-│       ├── Heap Sort
-│       ├── Insertion Sort
-│       ├── Merge Sort
-│       ├── Quick Sort
-│       └── Selection Sort
+│   └── String
+│       ├── KMP
+│       └── Z
 ├── Data Structures
 │   ├── Binary Indexed Tree
 │   ├── Binary Search Tree
@@ -68,7 +68,9 @@ ADT
 │   ├── Linked List
 │   ├── Segment Tree
 │   ├── Sparse Table
-│   └── Trie
+│   └──Trie
+│
+│
 └── Techniques
     └── Dynamic Programming
         ├── Coin Exchange Problem
