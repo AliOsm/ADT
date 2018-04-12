@@ -15,6 +15,7 @@ ADT
 │   │   ├── Depth First Search
 │   │   ├── Dijkstra
 │   │   ├── Floyd-Warshall
+│   │   ├── Prim
 │   │   └── Kruskal
 │   ├── Math
 │   │   ├── Fast Power
@@ -32,6 +33,8 @@ ADT
 │       ├── Counting Sort
 │       ├── Quick Sort
 │       └── Selection Sort
+├── Data Structures
+│   └──Trie
 └── Techniques
     └── Dynamic Programming
         └── Longest Increasing Subsequence
@@ -47,7 +50,6 @@ ADT
 │   │   ├── Bridges
 │   │   ├── Johnson
 │   │   ├── Least Common Ancestor
-│   │   ├── Prim
 │   │   ├── Topological Sort
 │   │   └── Tarjan
 │   ├── Math
@@ -65,8 +67,7 @@ ADT
 │   ├── Doubly Linked List
 │   ├── Linked List
 │   ├── Segment Tree
-│   ├── Sparse Table
-│   └──Trie
+│   └── Sparse Table
 └── Techniques
     └── Dynamic Programming
         ├── Coin Exchange Problem
