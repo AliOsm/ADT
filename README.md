@@ -32,8 +32,6 @@ ADT
 │       ├── Counting Sort
 │       ├── Quick Sort
 │       └── Selection Sort
-│
-│
 └── Techniques
     └── Dynamic Programming
         └── Longest Increasing Subsequence
@@ -69,8 +67,6 @@ ADT
 │   ├── Segment Tree
 │   ├── Sparse Table
 │   └──Trie
-│
-│
 └── Techniques
     └── Dynamic Programming
         ├── Coin Exchange Problem
