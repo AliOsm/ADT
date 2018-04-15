@@ -34,7 +34,8 @@ ADT
 │       ├── Quick Sort
 │       └── Selection Sort
 ├── Data Structures
-│   └──Trie
+│   ├── Linked List
+│   └── Trie
 └── Techniques
     └── Dynamic Programming
         └── Longest Increasing Subsequence
@@ -65,7 +66,6 @@ ADT
 │   ├── Binary Tree
 │   ├── Disjoint Set Union
 │   ├── Doubly Linked List
-│   ├── Linked List
 │   ├── Segment Tree
 │   └── Sparse Table
 └── Techniques
