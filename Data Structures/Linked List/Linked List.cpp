@@ -6,9 +6,9 @@ typedef int T;
 struct node{
 	T info;
 	node *next;
-	node(T a = 0,node *b = NULL){
-		info = a;
-		next = b;
+	node(T data = 0,node *n = NULL){
+		info = data;
+		next = n;
 	}
 };
 class LinkedList{
@@ -22,7 +22,7 @@ public:
 	}
 
 	void insert(T val){
-		node *Newnode = new node(val,NULL);
+		node *Newnode = new node(val);
 		if(front == NULL){
 			front = last = Newnode;
 		}else{
@@ -83,11 +83,11 @@ public:
 	}
 
 	void clearList(){
-		node *Newnode = front;
+		node *tmp = front;
 		while(front != NULL){
-			Newnode = front;
+			tmp = front;
 			front = front->next;
-			delete Newnode;
+			delete tmp;
 		}
 		length = 0;
 	}
