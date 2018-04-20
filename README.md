@@ -34,6 +34,7 @@ ADT
 │       ├── Quick Sort
 │       └── Selection Sort
 ├── Data Structures
+│   ├── Doubly Linked List
 │   ├── Linked List
 │   └── Trie
 └── Techniques
@@ -65,7 +66,6 @@ ADT
 │   ├── Binary Search Tree
 │   ├── Binary Tree
 │   ├── Disjoint Set Union
-│   ├── Doubly Linked List
 │   ├── Segment Tree
 │   └── Sparse Table
 └── Techniques

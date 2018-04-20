@@ -7,38 +7,43 @@ typedef int T;
 struct node{
 	T info;
 	node *next;
-	node(T data = 0,node *n = NULL){
+	node *back;
+	node(T data = 0,node *n = NULL,node * b =NULL){
 		info = data;
 		next = n;
+		back = b;
 	}
 };
-class LinkedList{
+
+class DoublyLinkedList{
 private:
 	node *first,*last;
 	int length;
 public:
-	LinkedList(){
+	DoublyLinkedList(){
 		first = last = NULL;
 		length = 0;
 	}
-
 	void insert(T val){
-		node *Newnode = new node(val);
-		if(first == NULL){
-			first = last = Newnode;
-		}else{
-			last->next = Newnode;
-			last = Newnode;
+		node *NewNode = new node(val);
+		if(first == NULL)
+			last = first = NewNode;
+		else{
+			NewNode -> back = last;
+			last -> next = NewNode;
+			last = NewNode; 
 		}
 		++length;
 	}
-
 	void insertFirst(T val){
-		node *Newnode = new node(val,first);
-		if(last == NULL)
-			last = first = Newnode;
-		else
-			first = Newnode;
+		node *NewNode = new node(val);
+		if(first == NULL)
+			last = first = NewNode;
+		else{
+			first -> back = NewNode;
+			NewNode -> next = first;
+			first = NewNode;
+		}
 		++length;
 	}
 
@@ -47,80 +52,74 @@ public:
 			cout <<"index "<<pos<<" is Out of Range \n";
 			return;
 		}
+		node *cur = first,* Newnode;
 
-		node *cur = first , *tail , *Newnode;
-		
-		if(first != NULL){
+		if(first == NULL)
+			insert(val);
+		else {
 			int i=0;
-			while(cur->next != NULL && i < pos){
+			while(cur -> next != NULL && i < pos){
 				++i;
-				tail = cur;
-				cur = cur->next;
+				cur = cur ->next;
 			}
 			if(pos > i + 1)
 				return;
-			else if(cur->next == NULL && pos == i + 1)
+			else if(cur -> next == NULL && pos == i + 1)
 				insert(val);
 			else if(pos == 0)
 				insertFirst(val);
 			else {
 				Newnode = new node(val);
+
+				node *tail = cur -> back;
 				tail -> next = Newnode;
+				Newnode -> back = tail;
 				Newnode -> next = cur;
 			}
 		}
-		else 
-			insert(val);
 		++length;
 	}
-
-	void pop(){//O(n)
+	void pop(){//O(1)
 		if(first == NULL)
 			return;
 		else if(first -> next == NULL){
 			delete first;
 			first = last = NULL;
 		}else{
-			node * cur = first;
-			while(cur -> next != last){
-				cur = cur -> next;
-			}
-			cur -> next = NULL;
-			delete last;
-			last = cur;
+			last = last -> back;
+			delete last -> next;
+			last -> next = NULL;
 		}
 		--length;
 	}
-
 	void print(){
-		node *cur = first;
+		node *cur = first ;
 		while(cur != NULL){
-			cout << cur->info <<" ";
-			cur = cur->next; 
+			cout <<cur -> info <<" ";
+			cur = cur -> next;
 		}
-		cout << '\n';
+		cout <<'\n';
 	}
-
-	void clearList(){
-		node *tmp = first;
+	void ClearList(){
+		node *Newnode = first;
 		while(first != NULL){
-			tmp = first;
+			Newnode = first;
 			first = first->next;
-			delete tmp;
+			delete Newnode;
 		}
 		length = 0;
 	}
-	~LinkedList(){
-		clearList();
+	~DoublyLinkedList(){
+		ClearList();
 	}
 };
 int main(){
-	LinkedList l;
+	DoublyLinkedList l;
 	l.insert(2);
 	l.insertFirst(8);
 	l.insertAt(5,0);
 	l.insertAt(10,3);
-
+	
 	l.pop();
 
 	l.print();
