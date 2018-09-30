@@ -90,8 +90,11 @@ Thanks goes to these wonderful people ([emoji key][emojis]):
 This project follows the [all-contributors][all-contributors] specification.
 Contributions of any kind are welcome!
 
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/AliOsm/ADT.
+
 ## License
-MIT
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
