@@ -16,7 +16,8 @@ ADT
 │   │   ├── Dijkstra
 │   │   ├── Floyd-Warshall
 │   │   ├── Prim
-│   │   └── Kruskal
+│   │   ├── Kruskal
+│   │   └── Topological Sort
 │   ├── Math
 │   │   ├── Fast Power
 │   │   ├── n Choose k
@@ -52,7 +53,6 @@ ADT
 │   │   ├── Bridges
 │   │   ├── Johnson
 │   │   ├── Least Common Ancestor
-│   │   ├── Topological Sort
 │   │   └── Tarjan
 │   ├── Math
 │   │   └── Number Theory
