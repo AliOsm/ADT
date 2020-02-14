@@ -22,6 +22,7 @@ ADT
 │   │   ├── Fast Power
 │   │   ├── n Choose k
 │   │   └── Number Theory
+│   │       ├── N'th Catalan Number
 │   │       ├── Greatest Common Divisor
 │   │       ├── Least Common Multiple 
 │   │       └── Prime Numbers
